@@ -5,7 +5,7 @@ int main()
 {
     int city,percent;//輸入幾個城市幾趴會通過
     int pass=0;//通過的投開票所數量
-    int few=0;
+    int few=0;  // condition to ignore 
     int others=0;
     cin>>city>>percent;
     int vote,totalvote;
